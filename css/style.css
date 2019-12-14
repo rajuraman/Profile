@@ -1,0 +1,107 @@
+body {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .header1 {
+    background-color: #ff8b00 !important
+  }
+
+  .header1 .bg-light {
+    background-color: #ff8b00 !important
+  }
+
+  .header1 .google {
+    width: 50px;
+  }
+
+  .box {
+    height: 260px;
+    background-color: #853d0e;
+    margin: 15px;
+    text-align: center;
+    border-radius: 6px;
+
+  }
+
+  .box img {
+    width: 50%;
+    margin: 10px 0px;
+
+  }
+
+  .box h4 {
+    font-size: 20px;
+    color: #fff;
+  }
+
+  .box p {
+    font-size: 15px;
+    color: #fff;
+  }
+
+  .futter {
+    width: 100%;
+    background-color: #ff8b00;
+    height: 300px;
+  }
+
+  .article li {
+    list-style: none;
+  }
+
+  .article li a {
+    text-decoration: none;
+  }
+
+  .article h3 {
+    font-size: 23px;
+    color: #fff;
+    margin-top: 15px;
+  }
+
+  #navbar {
+    background-color: #333;
+    position: fixed;
+    top: -50px;
+    width: 100%;
+    display: block;
+    transition: top 0.3s;
+  }
+
+  #navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  #navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  .Raju1{
+        font-weight: bold;
+  }
+
+  @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+  /*================================================*/
+  @import url('https://fonts.googleapis.com/css?family=Roboto');
+
+  .carousel-item>div {
+    float: left;
+  }
+
+  .carousel-by-item [class*="cloneditem-"] {
+    display: none;
+  }
+
+  .adderss {
+    background-color: darkorange;
+    width: 100%;
+    height: 400px;
+  }
