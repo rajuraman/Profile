@@ -1,0 +1,201 @@
+body {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .header1 {
+    background-color: #ff8b00 !important
+  }
+
+  .header1 .bg-light {
+    background-color: #ff8b00 !important
+  }
+
+  .header1 .google {
+    width: 50px;
+  }
+  .marq{
+    color: red;
+     text-transform: uppercase;
+      font-weight: bold;
+       float: left;
+       width: 80%;
+
+  }
+  
+  .box {
+    height: 260px;
+    background-color: #853d0e;
+    margin: 15px;
+    text-align: center;
+    border-radius: 6px;
+
+  }
+
+  .box img {
+    width: 50%;
+    margin: 10px 0px;
+
+  }
+
+  .box h4 {
+    font-size: 20px;
+    color: #fff;
+  }
+
+  .box p {
+    font-size: 15px;
+    color: #fff;
+   
+  }
+  .developer{
+    background-color: #ff8b00;
+    text-align: center;
+    border-radius: 5px;
+  }
+  .developer h5{
+    color: #fff;
+    line-height: 35px;
+    text-align: left;
+    padding: 15px;
+  }
+
+  .futter {
+    width: 100%;
+    background-color: #ff8b00;
+    height: 300px;
+    margin-top: 15px;
+  }
+
+  .article li {
+    list-style: none;
+    line-height: 39px;
+  }
+
+  .article li a {
+    text-decoration: none;
+  }
+
+  .article h3 {
+    font-size: 23px;
+    color: #fff;
+    margin-top: 15px;
+  }
+
+  #navbar {
+    background-color: #333;
+    position: fixed;
+    top: -50px;
+    width: 100%;
+    display: block;
+    transition: top 0.3s;
+  }
+
+  #navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  #navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  .Raju1{
+        font-weight: bold;
+  }
+
+  @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+  /*================================================*/
+  @import url('https://fonts.googleapis.com/css?family=Roboto');
+
+  .carousel-item>div {
+    float: left;
+  }
+
+  .carousel-by-item [class*="cloneditem-"] {
+    display: none;
+  }
+  .scrollToTop{
+    float: right;
+    background: #3b7fc4;
+    border-radius: 7px;
+  }
+  .scrollToTop img{
+    width: 37px;
+  }
+
+  .adderss {
+    background-color: darkorange;
+    width: 100%;
+    height: 400px;
+  }
+  .fa-facebook{
+    color: #004085;
+    background: #efe7e7;
+    padding: 7px;
+    border-radius: 7px;
+  }
+.fa-linkedin{
+  color: #0e76a8;
+    background: #efe7e7;
+    padding: 7px;
+    border-radius: 7px;
+}
+.fa-twitter{
+  color: #007bff;
+  background: #efe7e7;
+  padding: 7px;
+  border-radius: 7px;
+}
+.fa-instagram{
+  color: #e21d24;
+  background: #efe7e7;
+  padding: 7px;
+  border-radius: 7px;
+}
+.fa-youtube-play{
+  color: red;
+  background: #efe7e7;
+  padding: 7px;
+  border-radius: 7px;
+}
+.fa-map-marker{
+  color: blue;
+}
+.fa-mobile{
+  color: #000;
+}
+.fa-envelope{
+  color: #fff;
+}
+
+
+
+
+  @media only screen and (max-width: 375px) {
+    .developer{
+      margin-top: 15px;
+
+    }
+    .map{
+      max-width: 100%;
+      margin-top: 15px;
+    }
+    .futter {
+      width: 100%;
+      background-color: #ff8b00;
+      height: 665px;
+      margin-top: 15px;
+  }
+  .developer {
+    background-color: #ff8b00;
+    text-align: center;
+    height: 482px;
+}
+  }
