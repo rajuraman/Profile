@@ -174,6 +174,35 @@ body {
 .fa-envelope{
   color: #fff;
 }
+.skill{
+  width: 100%;
+  margin: 15px 0px;
+  background-color:darkorange;
+  border-radius: 6px;
+}
+.skill h2{
+  padding-left: 15px;
+  color: #fff;
+}
+.fa-hand-o-right{
+  color: #fff;
+    margin-right: 15px;
+    background: darkorange;
+    padding: 15px;
+    border-radius: 50%;
+}
+.html1{
+  background-color: #ff8b0099;
+    border-radius: 18px;
+    padding: 10px;
+}
+.html1 h4 a{
+  text-decoration: none;
+  color: #000;
+}
+.html1 h4 a:hover{
+  color: #fff;
+}
 
 
 
