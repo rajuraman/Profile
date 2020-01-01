@@ -2,13 +2,16 @@ body {
     margin: 0px;
     padding: 0px;
   }
+  .container{
+    width: 1200px !important;
+  }
 
   .header1 {
-    background-color: #ff8b00 !important
+    background-color: #d74b27 !important;
   }
 
   .header1 .bg-light {
-    background-color: #ff8b00 !important
+    background-color: #d74b27 !important;
   }
 
   .header1 .google {
@@ -48,6 +51,19 @@ body {
     color: #fff;
    
   }
+  .developer1 h2{
+    color: #d14429;
+    font-family: monospace;
+    font-size: 48px;
+    font-weight: bold;
+  }
+  .developer1 h5{
+    color: #000;
+    line-height: 32px;
+    text-align: left;
+    font-weight: 400;
+  }
+
   .developer{
     background-color: #ff8b00;
     text-align: center;
@@ -62,7 +78,7 @@ body {
 
   .futter {
     width: 100%;
-    background-color: #ff8b00;
+    background-color: #940800;
     height: 300px;
     margin-top: 15px;
   }
@@ -109,6 +125,7 @@ body {
   .Raju1{
         font-weight: bold;
   }
+  
 
   @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
   /*================================================*/
@@ -169,12 +186,70 @@ body {
   color: blue;
 }
 .fa-mobile{
-  color: #000;
+  color: #fff;
 }
 .fa-envelope{
   color: #fff;
 }
+.skill{
+  width: 100%;
+  margin: 15px 0px;
+  background-color:darkorange;
+  border-radius: 6px;
+}
+.skill h2{
+  padding-left: 15px;
+  color: #fff;
+}
+.fa-hand-o-right{
+  color: #fff;
+    margin-right: 15px;
+    background: darkorange;
+    padding: 15px;
+    border-radius: 50%;
+}
+.html1{
+  background-color: #ff8b0099;
+    border-radius: 18px;
+    padding: 10px;
+}
+.html1 h4 a{
+  text-decoration: none;
+  color: #000;
+}
+.html1 h4 a:hover{
+  color: #fff;
+}
+.reset{
+  background-color: red;
+    border: none;
+    padding: 6px 20px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+}
+.send{
+  background-color: #007bff;
+    border: none;
+    padding: 6px 20px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
 
+}
+.fa-html5{
+  font-size: 33px !important;
+  color:red!important;
+}
+.fa-css3{
+  font-size: 33px !important;
+  color: #007bff !important;
+}
+.navbar-light .navbar-brand {
+  color: rgba(249, 245, 245, 0.9) !important;
+}
 
 
 
@@ -199,3 +274,25 @@ body {
     height: 482px;
 }
   }
+  @media only screen and (max-width: 411px) {
+    .developer{
+      margin-top: 15px;
+
+    }
+    .map{
+      max-width: 100%;
+      margin-top: 15px;
+    }
+    .futter {
+      width: 100%;
+      background-color: #ff8b00;
+      height: 665px;
+      margin-top: 15px;
+  }
+  .developer {
+    background-color: #ff8b00;
+    text-align: center;
+    height: 482px;
+}
+  }
+ 
