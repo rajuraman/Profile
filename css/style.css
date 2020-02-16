@@ -152,7 +152,7 @@ hr.star-dark:after, hr.star-light:after {
 }
 .modal-dialog {
     margin: 1.75rem auto;
-    max-width: 80% !important;
+    max-width: 90% !important;
 }
 .modal-title {
     margin-bottom: 0;
@@ -288,14 +288,36 @@ label {
 
 @media only screen and (max-width: 500px) {
     .img1 h1 {
-        font-size: 38px;
+        font-size: 55px;
     }
-    .img1 h2 {
-        font-size: 18px;
+    .header {
+        background-color: #503a83;
     }
     .raj {
-        margin-bottom: 20px;
+        margin: 7px;
     }
+    .futter {
+        height: 585px;
+    }
+    .futter_clo {
+        height: 585px;
   }
+  .icon1{
+      margin-bottom: 20px;
+  }
+  modal-dialog {
+    width: 100% !important;
+}
+.modal-title {
+    font-size: 21px;
+}
+.main_box {
+    height: 1734px;
+}
+.nav-link:hover {
+    color: #fff !important;
+    background-color:#9d9595;
+}
+}
 
 
